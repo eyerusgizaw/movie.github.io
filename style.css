@@ -1,0 +1,66 @@
+
+
+h3{color: white;}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(18, 17, 17);
+  color: rgb(10, 10, 10);
+  margin-top: 50px;
+}
+body {
+
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url(img/pngwing.com\ \(2\).png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  height: 100vh;
+  margin-top: 50px;
+
+}
+
+.form2,
+.form3 {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#searchInput,
+#searchInput2,
+#searchInput3T,
+#searchInput3Y {
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#btn1,
+#btn2,
+#btn3 {
+  padding: 5px 10px;
+  border: none;
+  background-color: #4c6daf;
+  color: white;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 20px;
+}
+
+#left-div img {
+  max-width: 300px;
+  height: auto;
+}
+
+#right-div h2 {
+  margin-top: 0;
+}
+
+#right-div p {
+  margin: 5px 0;
+}
